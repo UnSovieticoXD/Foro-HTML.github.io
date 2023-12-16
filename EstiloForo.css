@@ -1,0 +1,116 @@
+header {
+    background-color: #95628f;
+    border: 1px;
+    border-color: #95628f;
+    border-width: 5px;
+    border-style: solid;
+    outline: #7e737c;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+/* Esto es un comentario
+Este comentario es para configurar los header y footer */
+footer {
+    background-color: darkslategray;
+    border: solid 1px darkslategray;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+/* configuración de las secciones */
+section {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: black;
+}
+/* configuración de las tablas */
+
+table, td, th {
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #86452c;
+}
+
+.Registrar {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.Register {
+            width: 250px; /* Ancho del cuadro */
+            height: 100x; /* Alto del cuadro */
+            border: 1px solid #000; /* Borde del cuadro */
+            border-color: #000;
+            border-style: solid;
+            border-width: 2px;
+            border-radius: 10px;
+            padding: 10px; /* Espacio interno del cuadro */
+            text-align: center; /* alinear texto */
+            
+}
+
+.Secciones {
+    width: 200px;
+    height: 150px;
+    margin: 50px;
+    padding: 50px;
+    border: 1px;
+    border-color: #ff0000;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 7px;
+    text-align: center;
+}
+
+audio {
+    border: 1px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #000;
+}
+
+video {
+    border: 1px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #000;
+}
+
+a:hover {
+    color: #27318f;
+    font-family: "Agbadalio";
+}
+
+body {
+    background-color: #0e154e;
+}
+
+.articles table, th, td {
+    color: #ffffffff;
+}
+
+.articles table, tr, td, section, article {
+    color: #ffffffff;
+}
+
+hr {
+    color: #ff0000;
+}
+
+* {
+    color: white;
+}
+
+button {
+    color: #000000;
+}
+
+.articles h2 {
+    color: #ffffffff;
+    font-family: cursive;
+}

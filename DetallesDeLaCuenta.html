@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de la cuenta | Damian León</title>
+</head>
+<body>
+    <center>
+    <h1>Detalles de la cuenta</h1>
+    </center>
+    <form action="AccionesCambiadas.php" method="post" target="_blank">
+    <br>
+    <hr>
+    <h2>Nombre</h2>
+    <br>
+    <p>
+        Nombre: <textarea name="nombre" id="Name" readonly style="width: 300px; height: 17px;">Damian León</textarea>
+    </p>
+    <br>
+    <p>
+        nuevo nombre: <textarea name="Nombre" id="Nombre" style="width: 300px; height: 17px;" placeholder="Nuevo nombre" required></textarea>
+    </p>
+    <hr>
+    <h2>Contraseña</h2>
+    <br>
+    <p>
+        Contraseña: <textarea type="password" name="Contra" id="pass" style="width: 300px; height: 17px;" readonly placeholder="Contraseña">************</textarea>
+    </p>
+    <br>
+    <p>
+        Nueva Contraseña <input type="password" name="Contraseña" id="Contraseña" placeholder="insertar Nueva contraseña" style="width: 300px; height: 17px;" required>
+    </p>
+    <p>
+       Acepto los terminos y condiciones <input type="checkbox" required>
+       <br>
+       Deseo recibir las notificaciones de este foro <input type="checkbox"">
+    </p>
+<button type="submit">Subir y actualizar</button>
+    </form>
+    <script>
+        let Nombree = document.getElementById("Name")
+        
+        // mejor lee
+        Nombree.readOnly = true;
+    </script>
+</body>
+</html>

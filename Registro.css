@@ -1,0 +1,22 @@
+/* Hora de empezar */
+
+footer {
+    background-color: #2f4f4f;
+    border: 1px;
+    border-radius: 5px;
+    border-color: #000;
+    border-style: solid;
+    border-width: 3px;
+}
+
+a:hover {
+color: #ff00ff;
+}
+
+.Left {
+text-align: left;
+}
+
+.Enlace {
+    text-align: right;
+}

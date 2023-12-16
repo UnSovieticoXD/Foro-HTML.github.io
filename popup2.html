@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicidad2 | Foro De Fulano</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    background-color: #3498db; /* Color de fondo inicial */
+}
+
+    </style>
+    <center>
+    <h1 style="font-family: cursive;">Juega a este juego y veras como tu cuenta bancária aumentará!<br> <p></p></h1>
+    <br>
+    <p style="font-family: cursive;">Este juego te hará millonario en solo 1 mes!!!</p>
+        <br>
+        <a href="link2.html" style="font-family: cursive;" id="enlace">click aqui!</a>
+        </center>
+    <script>
+        function changeBackgroundColor() {
+    const colors = ['#3498db', '#e74c3c', '#27ae60', '#f39c12', '#9b59b6']; // Lista de colores a utilizar
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+    document.body.style.backgroundColor = randomColor; // Cambia el color de fondo
+}
+// Cambia el color cada 3 segundos (3000 milisegundos)
+setInterval(changeBackgroundColor, 1000);
+
+    </script>
+    <script>
+          // Función para cambiar el color del enlace en bucle
+  function cambiarColorEnBucle() {
+    const enlace = document.getElementById('enlace');
+    const colores = ['red', 'green', 'blue', 'orange', 'purple']; // Lista de colores
+    let indice = 0; // Índice actual en la lista de colores
+
+    setInterval(function() {
+      // Cambiar el color del enlace
+      enlace.style.color = colores[indice];
+
+      // Incrementar el índice o volver al inicio si llegamos al final
+      indice = (indice + 1) % colores.length;
+    }, 100); // Cambiar de color cada 100 milisegundos (0.1 segundo)
+  }
+
+  // Llamar a la función al cargar la página
+  window.onload = cambiarColorEnBucle;
+    </script>
+</body>
+</html>

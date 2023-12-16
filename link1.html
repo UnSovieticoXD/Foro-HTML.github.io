@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estafado</title>
+</head>
+<body>
+    <h1 style="font-family: cursive;" id="hola">Jajaja has sido estafado</h1>
+    <p style="font-family: cursive;" id="hola2">Que penita haha</p>
+    <script>
+  function cambiarColorEnBucle() {
+    const enlace = document.getElementById('hola');
+    const colores = ['red', 'green', 'blue', 'orange', 'purple']; // Lista de colores
+    let indice = 0; // Índice actual en la lista de colores
+
+    setInterval(function() {
+      // Cambiar el color del enlace
+      enlace.style.color = colores[indice];
+
+      // Incrementar el índice o volver al inicio si llegamos al final
+      indice = (indice + 1) % colores.length;
+    }, 100); // Cambiar de color cada 100 milisegundos (0.1 segundo)
+  }
+
+  // Llamar a la función al cargar la página
+  window.onload = cambiarColorEnBucle;
+    </script>
+    <script>
+          function cambiarColorEnBuclee() {
+    const enlaze = document.getElementById('hola2');
+    const colors = ['red', 'green', 'blue', 'orange', 'purple']; // Lista de colores
+    let indic = 0; // Índice actual en la lista de colores
+
+    setInterval(function() {
+      // Cambiar el color del enlace
+      enlaze.style.color = colors[indic];
+
+      // Incrementar el índice o volver al inicio si llegamos al final
+      indic = (indic + 1) % colors.length;
+    }, 100); // Cambiar de color cada 100 milisegundos (0.1 segundo)
+  }
+
+  // Llamar a la función al cargar la página
+  window.onload = cambiarColorEnBuclee;
+    </script>
+</body>
+</html>
